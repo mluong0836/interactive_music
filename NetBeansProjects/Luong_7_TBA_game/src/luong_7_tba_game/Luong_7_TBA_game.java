@@ -1974,25 +1974,25 @@ public class Luong_7_TBA_game {
                    System.out.println("WHOA! The witch lost 30 HP. The boss now has " + bosshealth + " HP." );
                    enter = next.nextLine();
                    System.out.println("You now have " + playerhealth + " HP.");
-               }else if(answer.contains("ice")) {
+               }else if(attack.contains("ice")) {
                    System.out.println("Alright, it's gonna be a little chilly...GHAAAA!!!");
                    bosshealth = bosshealth-20;
                    System.out.println("BRRR... The evil witch lost 20 HP. The boss now has " + bosshealth + " HP.");
                    enter = next.nextLine();
                    System.out.println("You now have " + playerhealth + " HP.");
-               }else if(answer.contains("lightening")) {
+               }else if(attack.contains("lightening")) {
                    System.out.println("Someone's gonna get fried today! ZAAAAP!!!");
                    bosshealth = bosshealth-40;
                    System.out.println("OUCH!!! The evil witch lost 40 HP. The boss now has " + bosshealth + " HP.");
                    enter = next.nextLine();
                    System.out.println("You now have " + playerhealth + " HP");
-               }else if (answer.contains("throw rocks")) {
+               }else if (attack.contains("throw rocks")) {
                    System.out.println("Incoming Boulder...BOOOOOMM!!!");
                    bosshealth = bosshealth-30;
                    System.out.println("The witch lost 30 HP. It now has " + bosshealth + " HP.");
                    enter = next.nextLine();
                    System.out.println("You now have " + playerhealth + " HP.");
-               }else if (answer.contains("sacred swords")) {
+               }else if (attack.contains("sacred sword")) {
                    System.out.println(username + " summons the guardians of the 9 sacred swords, and ");
                    System.out.println("the guardians released their swords to punish the wicked witch...");
                    enter = next.nextLine();
@@ -2002,7 +2002,7 @@ public class Luong_7_TBA_game {
                    System.out.println("HP.");
                    enter = next.nextLine();
                    System.out.println("You now have " + playerhealth + " HP.");
-               }else if (answer.contains("cosmic rays")) {
+               }else if (attack.contains("cosmic rays")) {
                    System.out.println(username + " casts a spell that absorbs all of the radiation from space...");
                    System.out.println("Then a large light bombards the witch and inflicts 130 HP.");
                    bosshealth = bosshealth-130;
@@ -2010,7 +2010,7 @@ public class Luong_7_TBA_game {
                    System.out.println("The boss now has " + bosshealth + " HP.");
                    enter = next.nextLine();
                    System.out.println(username + " now has " + playerhealth + " HP.");
-               }else if (answer.contains("teleport")) {
+               }else if (attack.contains("teleport")) {
                    System.out.println(username + " creates a blue portal and jumps inside the portal...");
                    enter = next.nextLine();
                    System.out.println(username + " then teleports behind the witch and strikes...Then jumps back in...");
@@ -2023,13 +2023,13 @@ public class Luong_7_TBA_game {
                    System.out.println("WOW!!!" + username + " inflicted 210 HP. The boss now has " + bosshealth + " HP.");
                    enter = next.nextLine();
                    System.out.println("You now have " + playerhealth + " HP.");
-               }else if(answer.contains("wind")) {
+               }else if(attack.contains("wind")) {
                    System.out.println("Alright, let's finish this up...WHIRL!!!");
                    bosshealth = bosshealth-10;
                    System.out.println("The evil witch lost 10 HP. The boss now has " + bosshealth + " HP.");
                    enter = next.nextLine();
                    System.out.println("You now have " + playerhealth + " HP.");
-               }else if (answer.contains("heal")){
+               }else if (attack.contains("heal")){
                    healing_challenge3();
                    System.out.println("\n");
                    System.out.println(username + "'s HP increased 300 health points and now have " + playerhealth + ".");
